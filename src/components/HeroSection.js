@@ -2,6 +2,17 @@ import React from 'react';
 import web from "../images/hero.webp";
 import AboutSection from './AboutSection ';
 import AboutSection1 from './AboutSection1';
+import MasterPlan from './MasterPlan';
+import Map from './Map';
+import Faq from './Faq';
+import Slider from './Slider';
+import Footer from './Footer';
+import Footer2 from './Footer2';
+import Imagegrid from './Imagegrid';
+import Coming from './Coming';
+import ImageDisplay from './ImageDisplay';
+import YouTubeVideo from './YouTubeVideo';
+import BoxesWithImages from './BoxesWithImages';
 
 
 const HeroSection = () => {
@@ -22,7 +33,18 @@ const HeroSection = () => {
 
       </div>
       <AboutSection />
+      <Imagegrid/>
       <AboutSection1 />
+      <ImageDisplay/>
+      <YouTubeVideo/>
+      <BoxesWithImages/>
+      <Coming/>
+      <MasterPlan/>
+      <Map/>
+      <Faq/>
+      <Slider/>
+      <Footer/>
+      <Footer2/>
     </>
 
   );
